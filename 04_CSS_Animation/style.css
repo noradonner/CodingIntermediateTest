@@ -17,3 +17,22 @@ div {
     width: 10vw;
     height: 10vw;
 }
+
+.square {
+    width: 100px;
+    height: 100px;
+    background-color: rgb(255, 255, 255);
+    position: relative;
+    animation: moveSquare 2s ease-in-out forwards;
+}
+
+@keyframes moveSquare {
+    0% {
+        left: 0;
+        border-radius: 0%;
+    }
+    100% {
+        left: 70vw;
+        border-radius: 45%;
+    }
+}

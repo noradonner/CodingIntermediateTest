@@ -1,0 +1,13 @@
+.modifier {
+    background: red;
+}
+
+.color {
+    color: #3700ff;
+}
+
+.nav_li {
+    display: flex;
+    justify-content: space-between;
+    gap: 2rem;
+}
